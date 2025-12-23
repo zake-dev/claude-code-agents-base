@@ -68,6 +68,7 @@ This template provides a structured workflow for AI-assisted development:
 ├── hack/
 │   ├── setup_repo.sh    # Repository setup script
 │   ├── thoughts-sync.sh # Thoughts directory sync
+│   ├── fetch-ticket.sh  # Fetch GitHub issue to local ticket
 │   └── create_worktree.sh # Git worktree helper
 ├── thoughts/            # Documentation directory (create as needed)
 │   ├── {username}/      # Personal notes

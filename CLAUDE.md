@@ -42,7 +42,8 @@ This project uses a structured development workflow:
 ### Ticket Management
 - Tickets are stored in `thoughts/shared/tickets/GH-XXX.md`
 - Use GitHub Issues for tracking, GitHub Projects for status
-- Copy issue content to local ticket file for detailed planning
+- Fetch issue to local file: `./hack/fetch-ticket.sh <issue-number>`
+- Then plan with: `/create_plan thoughts/shared/tickets/GH-XXX.md`
 
 ## Technical Guidelines
 
