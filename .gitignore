@@ -23,8 +23,8 @@ build/
 .DS_Store
 Thumbs.db
 
-# Thoughts (managed separately)
-thoughts/
+# Thoughts (auto-generated)
+thoughts/searchable/
 
 # Logs
 *.log
