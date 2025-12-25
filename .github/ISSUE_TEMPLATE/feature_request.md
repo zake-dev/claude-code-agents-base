@@ -25,5 +25,3 @@ assignees: ''
 **Related Issues/PRs:**
 <!-- Link to any related issues or pull requests -->
 
-## Photo of a cute animal
-<!-- please include a photo of a cute animal -->
