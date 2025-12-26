@@ -58,7 +58,7 @@ You are tasked with generating a comprehensive pull request description followin
 
 8. **Save and sync the description:**
    - Write the completed description to `thoughts/shared/prs/{number}_description.md`
-   - Run `./hack/thoughts-sync.sh` to sync the thoughts directory
+   - Run `./hack/thoughts_sync.sh` to sync the thoughts directory
    - Show the user the generated description
 
 9. **Update the PR:**

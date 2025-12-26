@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-# fetch-ticket.sh - Fetch GitHub issue and create local ticket file
-# Usage: ./hack/fetch-ticket.sh <issue-number>
+# fetch_ticket.sh - Fetch GitHub issue and create local ticket file
+# Usage: ./hack/fetch_ticket.sh <issue-number>
 #
 # Creates: thoughts/shared/tickets/GH-<number>.md
 
@@ -110,7 +110,7 @@ echo -e "${GREEN}Created: $TICKET_FILE${NC}"
 
 # Sync thoughts directory
 echo "Syncing thoughts directory..."
-"$SCRIPT_DIR/thoughts-sync.sh" > /dev/null 2>&1 || true
+"$SCRIPT_DIR/thoughts_sync.sh" > /dev/null 2>&1 || true
 
 echo -e "${GREEN}Done!${NC}"
 echo ""

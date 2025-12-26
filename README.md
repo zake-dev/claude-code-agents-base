@@ -67,8 +67,8 @@ This template provides a structured workflow for AI-assisted development:
 │   └── ISSUE_TEMPLATE/  # Issue and PR templates
 ├── hack/
 │   ├── setup_repo.sh    # Repository setup script
-│   ├── thoughts-sync.sh # Thoughts directory sync
-│   ├── fetch-ticket.sh  # Fetch GitHub issue to local ticket
+│   ├── thoughts_sync.sh # Thoughts directory sync
+│   ├── fetch_ticket.sh  # Fetch GitHub issue to local ticket
 │   └── create_worktree.sh # Git worktree helper
 ├── thoughts/            # Documentation directory (create as needed)
 │   ├── {username}/      # Personal notes
@@ -101,7 +101,7 @@ make setup         # Install dependencies and configure environment
 make check         # Run linting and type checking
 make test          # Run all tests
 make check-test    # Run checks and tests together
-make thoughts-sync # Sync thoughts directory
+make thoughts_sync # Sync thoughts directory
 make worktree      # Create git worktree for parallel development
 make githooks      # Install git hooks
 ```

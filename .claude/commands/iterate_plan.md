@@ -132,7 +132,7 @@ Get user confirmation before proceeding.
 ### Step 5: Sync and Review
 
 1. **Sync the updated plan**:
-   - Run `./hack/thoughts-sync.sh`
+   - Run `./hack/thoughts_sync.sh`
    - This ensures changes are properly indexed
 
 2. **Present the changes made**:

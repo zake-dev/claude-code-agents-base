@@ -26,7 +26,7 @@ This ensures consistent token efficiency and international collaboration.
 - `make check-test` - Run checks and tests together
 
 ### Thoughts Sync
-- `./hack/thoughts-sync.sh` - Sync thoughts directory and create searchable index
+- `./hack/thoughts_sync.sh` - Sync thoughts directory and create searchable index
 
 ## Workflow
 
@@ -42,7 +42,7 @@ This project uses a structured development workflow:
 ### Ticket Management
 - Tickets are stored in `thoughts/shared/tickets/GH-XXX.md`
 - Use GitHub Issues for tracking, GitHub Projects for status
-- Fetch issue to local file: `./hack/fetch-ticket.sh <issue-number>`
+- Fetch issue to local file: `./hack/fetch_ticket.sh <issue-number>`
 - Then plan with: `/create_plan thoughts/shared/tickets/GH-XXX.md`
 
 ## Technical Guidelines

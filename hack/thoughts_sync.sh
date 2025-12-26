@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-# thoughts-sync.sh - Sync thoughts directory with git and create searchable index
-# Usage: ./hack/thoughts-sync.sh [commit-message]
+# thoughts_sync.sh - Sync thoughts directory with git and create searchable index
+# Usage: ./hack/thoughts_sync.sh [commit-message]
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"

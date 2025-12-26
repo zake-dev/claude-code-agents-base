@@ -1,4 +1,4 @@
-.PHONY: setup setup-ci check test check-test help githooks worktree thoughts-sync fetch-ticket
+.PHONY: setup setup-ci check test check-test help githooks worktree thoughts_sync fetch_ticket
 
 # Default target
 .DEFAULT_GOAL := help
@@ -31,12 +31,12 @@ check-test: check test ## Run checks and tests
 
 ##@ Utilities
 
-thoughts-sync: ## Sync thoughts directory
-	@./hack/thoughts-sync.sh
+thoughts_sync: ## Sync thoughts directory
+	@./hack/thoughts_sync.sh
 
-fetch-ticket: ## Fetch GitHub issue to local ticket (usage: make fetch-ticket ISSUE=123)
-	@if [ -z "$(ISSUE)" ]; then echo "Usage: make fetch-ticket ISSUE=<number>"; exit 1; fi
-	@./hack/fetch-ticket.sh $(ISSUE)
+fetch_ticket: ## Fetch GitHub issue to local ticket (usage: make fetch_ticket ISSUE=123)
+	@if [ -z "$(ISSUE)" ]; then echo "Usage: make fetch_ticket ISSUE=<number>"; exit 1; fi
+	@./hack/fetch_ticket.sh $(ISSUE)
 
 worktree: ## Create a git worktree for parallel development
 	@./hack/create_worktree.sh

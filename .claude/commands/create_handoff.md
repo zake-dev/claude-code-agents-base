@@ -65,7 +65,7 @@ type: implementation_strategy
 ---
 
 ### 3. Approve and Sync
-Run `./hack/thoughts-sync.sh` to save the document.
+Run `./hack/thoughts_sync.sh` to save the document.
 
 Once this is completed, you should respond to the user with the template between <template_response></template_response> XML tags. do NOT include the tags in your response.
 

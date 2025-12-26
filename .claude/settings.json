@@ -1,7 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(./hack/thoughts-sync.sh:*)"
+      "Bash(./hack/thoughts_sync.sh:*)"
     ]
   },
   "env": {
