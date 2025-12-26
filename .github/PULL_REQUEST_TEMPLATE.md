@@ -9,5 +9,3 @@
 - [ ] I have ensured `make check test` passes
 
 ## Description for the changelog
-
-## A picture of a cute animal (not mandatory but encouraged)
